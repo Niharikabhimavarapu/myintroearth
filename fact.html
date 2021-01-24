@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Facts</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link type="text/css" rel="stylesheet" href="style.css">
+<style>
+         .container{
+            max-width: 1100px;
+            margin: auto;
+            overflow: auto;
+            padding: 0 2rem;
+         }   
+         .main-header{
+            height: 55vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+         }
+         .main-header h1{
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            line-height: 1.2;
+         }
+         .main-header h1 span{
+            color: lightskyblue;
+         }
+         .main-header p{
+            font-size: 2rem;
+         }
+         img{
+            width: 100%;
+         }
+         .card{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap:2rem;
+            background:oldlace;
+            margin-bottom: 2rem;
+         }
+         .card h3{
+            margin-bottom: 2rem;
+         }
+         .card img{
+            height: 400px;
+         }
+         .card > div{
+            padding: 2rem;
+         }
+         .card:nth-child(even) img{
+            order: 2;
+         }
+         @media(max-width: 700px){
+            .card{
+               display: block;
+            }
+         }
+</style>
+</head>
+<body>
+            
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+      <a class="navbar-brand" href="#">My Intro!<span style='font-size:20px;'>&#127757;</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+               <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="onthispage.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                 ON THIS PAGE 
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="atmosphere.html">Atmosphere</a>
+                  <a class="dropdown-item" href="size.html">Size and Distance</a>
+                  <a class="dropdown-item" href="nature.html">Nature</a>
+                  <a class="dropdown-item" href="orbit.html">Orbit and Rotation</a>
+                  <a class="dropdown-item" href="formation.html">Formation</a>
+                  <a class="dropdown-item" href="moon.html">Moon</a>
+                 </div> 
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item active">
+               <a class="nav-link" href="#">FACTS</a>
+            </li>
+         </ul>
+      </div>
+      </div>
+   </nav><br><br><br>
+<header class="main-header">
+   <h1>FACTS ABOUT</h1><h1><span>EARTH</span></h1>
+   <marquee width="100%" height="20%" bgcolor="whitesmoke" scroll amount="100"><font size="5" color="blue">The Earth’s rotation is gradually slowing.</font></marquee>
+</header>
+            <main class="container">
+               <section class="card">
+                  <img src="52.jpg" alt="">
+                  <div>
+                     <h3>Earth has a powerful magnetic field.</h3>
+                     <p>This phenomenon is caused by the nickel-iron core of the planet, coupled with its rapid rotation. This field protects
+                     the Earth from the effects of solar wind.</p>
+                  </div>
+               </section>
+               <section class="card">
+                  <img src="53.jpg" alt="">
+                  <div>
+                     <h3>There is only one natural satellite of the planet Earth.</h3>
+                     <p>As a percentage of the size of the body it orbits, the Moon is the largest satellite of any planet in our solar system.
+                     In real terms, however, it is only the fifth largest natural satellite.</p>
+                  </div>
+               </section>
+               <section class="card">
+                  <img src="54.png" alt="">
+                  <div>
+                     <h3>The Earth is the densest planet in the Solar System.</h3>
+                     <p> This varies according to the part of the planet; for example, the metallic core is denser than the crust. The average
+                     density of the Earth is approximately 5.52 grams per cubic centimetre.</p>
+                  </div>
+               </section>
+                        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                                    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                                    crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                                    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                                    crossorigin="anonymous"></script>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                                    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                                    crossorigin="anonymous"></script>
+</body>
+ </html>
+                        
